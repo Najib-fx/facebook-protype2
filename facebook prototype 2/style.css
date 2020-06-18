@@ -1,0 +1,118 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li, ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px lightgrey;
+}
+
+.note-images{
+    width: 40px;
+    height: 40px;
+    justify-content: space-between;
+    padding: 0 15%;
+}
+
+.search-bar {
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 0;
+}
+
+.flex-body {
+    display: flex;
+    padding: 10px;
+    
+}
+
+.right-side {
+    flex: 1;
+    order: 3;
+}
+
+.middle-side {
+    flex: 3;
+    order: 2;
+    display: flex;
+}
+
+.left-side {
+    flex: 1;
+    order: 1;
+}
+
+.status-image {
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.status-bar {
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 0;
+}
+.Status {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    box-sizing: border-box;
+}
+.Smaller-image {
+    height: 300px;
+    width: 100px;
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    z-index: 2;
+}
+.account {
+    display: flex;
+    height: 300px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.heading {
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    bottom: 5px;
+}
+
+.top-images{
+    width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 3;
+}
+.top-image {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+
+.comment-section {
+    
+    display: block;
+}
